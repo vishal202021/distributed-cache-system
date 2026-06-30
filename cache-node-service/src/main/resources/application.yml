@@ -1,0 +1,24 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: cache-node-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+cluster:
+  manager:
+    url: http://localhost:8082
+
+node:
+  id: node-1
+  host: localhost
+  port: 8081
+
+cache:
+  max-size: 3
