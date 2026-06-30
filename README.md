@@ -152,13 +152,7 @@ distributed-cache-system
 │
 ├── docker
 │
-├── docs
-│
-├── postman
-│
 ├── README.md
-│
-├── docker-compose.yml
 │
 └── .gitignore
 ```
